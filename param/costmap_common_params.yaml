@@ -1,15 +1,14 @@
 #max_obstacle_height: 0.60  # assume something like an arm is mounted on top of the robot
 obstacle_range: 2.0
-raytrace_range: 0.2
+raytrace_range: 3.0
 robot_radius: 0.20
 inflation_radius: 0.05
 map_type: costmap
 transform_tolerance: 5.0
 #footprint: 6
 cost_scaling_factor: 0.5
-sensor_flam: laser
+sensor_flame: laser
 
 
 observation_sources: scan
-
 scan: {data_type: LaserScan, topic: scan, marking: true, clearing: true}
